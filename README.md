@@ -31,7 +31,7 @@ The suite is built on the Google ecosystem because it is:
 ## Architecture
 - **Google Workspace**: a **Super Admin** email containing all code, owning all sheets/tools, and controlling all aspects of user emails to allow for safe access, sharing, and use of tools
 - Tools are shared through Google's share feature
-- Users in the workspace are restricted to only being able to edit the sheet and nothing else for maximum security. Extra permissions shared as needed.
+- We use AWS' **Principle of Least Privelege** as our security model. Users in the workspace are restricted to only being able to edit the sheets shared and nothing else for maximum security. Extra permissions are shared as needed.
 - Code is shipped with the sheets through Document ID.
 - **Main Tradeoff**: Ease of sharing/monitoring for being bottlenecked by a master email. We take this tradeoff here because the number of users and size of data is relatively small, and we want the suite to be easily monitored by one person. As long as Super Admin takes care of master email, this is an effective architecture. 
 - Diagram seen below:
