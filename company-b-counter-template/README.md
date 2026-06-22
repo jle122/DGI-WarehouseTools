@@ -6,7 +6,7 @@ Google Sheets + Apps Script automation
 
 ## Problem
 
-Company B ships units that requires tracking by serial number. The current workflow for Company B products often involves receiving a high amount of units, writing serial numbers by hand/typing, counting on paper, and then manually entering the results into Company B's database. This process is slow and introduces multiple opportunities for error at any point in the process.
+Company B ships units that requires tracking by serial number. The current workflow for Company B products often involves receiving a high amount of units, writing serial numbers by hand/typing, counting on paper, and then manually entering the results into Company B's database. This process is slow (often 1+ hours) and introduces multiple opportunities for error at any point in the process.
 
 ## Purpose
 
