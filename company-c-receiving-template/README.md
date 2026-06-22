@@ -62,4 +62,4 @@ This tool supports scanner-based receiving by checking scanned barcodes against 
 - Can be used for any vendors provided that there is a bar code of the part number to scan
 - Works best with barcodes, but can also use scanner text input or voice input where needed
 - May be adapted into a picking validation tool if packing lists and location data can be integrated reliably
-- Especially useful for onboarding newer workers who are not yet familiar with aprts
+- Especially useful for onboarding newer workers who are not yet familiar with part numbers
