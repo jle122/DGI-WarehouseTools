@@ -17,8 +17,7 @@ These tools are designed around scanner-friendly workflows and Google-based syst
 ## Why This Stack
 
 The suite is built on the Google ecosystem because it is:
-
-- **Free and practical** for a low-cost software budget
+- **Low-cost and practical**
 - **Apps Scripts** is phenomenal for spreadsheets that are only hundreds of lines long
 - **Scalable/easy** to manage for small or growing warehouse teams
 - **Familiar** to most users who already know spreadsheets or Google tools
@@ -26,7 +25,7 @@ The suite is built on the Google ecosystem because it is:
 - **Easy to configure** on top of existing workflows
 - **Flexible** enough to support independent warehouse processes outside vendor systems
 - High degree of **creative freedom** despite the controlled ecosystem
-- Secure, easy to change permissions via **Google Workspace** Super Admin model
+- **Secure**, easy to change permissions via **Google Workspace** Super Admin model
 
 ## Architecture
 - **Google Workspace**: a **Super Admin** email containing all code, owning all sheets/tools, and controlling all aspects of user emails to allow for safe access, sharing, and use of tools
