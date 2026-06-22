@@ -57,4 +57,4 @@ This repository serves as the shared, high-level index for the warehouse tool su
 - [Upgraded Counter Template](Upgraded-SN-Template/README.md) - The upgraded Company B Counter Template with automated model recognition.
 - [Company C Receiving Template](company-c-receiving-template/README.md) - Packing list based receiving workflow for barcode scanning and part validation.
 - [Automatic Label Maker](automatic-label-maker/README.md) - Form-based label generation for faster and cleaner warehouse label printing.
-- ** To maintain company privacy and confidentiality, vendors/products for which tools are designed are omitted to "Company [x]"
+- ** To maintain company privacy and confidentiality, vendors/products for which tools are designed are omitted to "Company [x]", and code used is not shared.
