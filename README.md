@@ -17,8 +17,7 @@ These tools are designed around scanner-friendly workflows and Google-based syst
 ## Why This Stack
 
 The suite is built on the Google ecosystem because it is:
-
-- **Free and practical** for a low-cost software budget
+- **Low-cost and practical**
 - **Apps Scripts** is phenomenal for spreadsheets that are only hundreds of lines long
 - **Scalable/easy** to manage for small or growing warehouse teams
 - **Familiar** to most users who already know spreadsheets or Google tools
@@ -26,12 +25,12 @@ The suite is built on the Google ecosystem because it is:
 - **Easy to configure** on top of existing workflows
 - **Flexible** enough to support independent warehouse processes outside vendor systems
 - High degree of **creative freedom** despite the controlled ecosystem
-- Secure, easy to change permissions via **Google Workspace** Super Admin model
+- **Secure**, easy to change permissions via **Google Workspace** Super Admin model
 
 ## Architecture
 - **Google Workspace**: a **Super Admin** email containing all code, owning all sheets/tools, and controlling all aspects of user emails to allow for safe access, sharing, and use of tools
 - Tools are shared through Google's share feature
-- Users in the workspace are restricted to only being able to edit the sheet and nothing else for maximum security. Extra permissions shared as needed.
+- We use AWS' **Principle of Least Privelege** as our security model. Users in the workspace are restricted to only being able to edit the sheets shared and nothing else for maximum security. Extra permissions are shared as needed.
 - Code is shipped with the sheets through Document ID.
 - **Main Tradeoff**: Ease of sharing/monitoring for being bottlenecked by a master email. We take this tradeoff here because the number of users and size of data is relatively small, and we want the suite to be easily monitored by one person. As long as Super Admin takes care of master email, this is an effective architecture. 
 - Diagram seen below:
@@ -57,4 +56,4 @@ This repository serves as the shared, high-level index for the warehouse tool su
 - [Upgraded Counter Template](Upgraded-SN-Template/README.md) - The upgraded Company B Counter Template with automated model recognition.
 - [Company C Receiving Template](company-c-receiving-template/README.md) - Packing list based receiving workflow for barcode scanning and part validation.
 - [Automatic Label Maker](automatic-label-maker/README.md) - Form-based label generation for faster and cleaner warehouse label printing.
-- ** To maintain company privacy and confidentiality, vendors/products for which tools are designed are omitted to "Company [x]"
+- ** To maintain company privacy and confidentiality, vendors/products for which tools are designed are omitted to "Company [x]", and code used is not shared.
