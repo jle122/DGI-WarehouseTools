@@ -1,4 +1,4 @@
-# Company B Serial Number Counter Template Upgraded
+# Company B Serial Number Counter 2.0
 An upgraded version of our Serial Number Counter that allows for smart recognition of model numbers without manual input into the columns. Created for Company B.
 ## Stack
 
