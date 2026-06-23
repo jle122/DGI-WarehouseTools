@@ -51,9 +51,9 @@ This repository serves as the shared, high-level index for the warehouse tool su
 
 ## Tool README Links
 
-- [Company A Temporary/Overstock Database](company-a-temp-database/README.md) - Temporary and overstock location tracking outside Company A's system.
-- [Company B Counter Template](company-b-counter-template/README.md) - Scanner-based serial number counting and duplicate detection for Company B and similar products.
-- [Upgraded Counter Template](Upgraded-SN-Template/README.md) - The upgraded Company B Counter Template with automated model recognition.
-- [Company C Receiving Template](company-c-receiving-template/README.md) - Packing list based receiving workflow for barcode scanning and part validation.
+- [Temporary/Overstock Database](overstock-temp-database/README.md) - Temporary and overstock location tracking outside Company A's system.
+- [Serial Number Counter](part number-receiving-template/README.md) - Scanner-based serial number counting and duplicate detection for Company B and similar products.
+- [Upgraded Serial Number Counter](serial-number-counter/README.md) - The upgraded Company B Counter Template with automated model recognition.
+- [Part Number Receiving Template](upgraded-SN-counter/README.md) - Packing list based receiving workflow for barcode scanning and part validation.
 - [Automatic Label Maker](automatic-label-maker/README.md) - Form-based label generation for faster and cleaner warehouse label printing.
 - ** To maintain company privacy and confidentiality, vendors/products for which tools are designed are omitted to "Company [x]", and code used is not shared.
