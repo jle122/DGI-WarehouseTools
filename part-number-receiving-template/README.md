@@ -1,4 +1,4 @@
-# Company C Receiving Template
+# Part Number Receiving Template
 A packing list receiving template that allows for seamless scanning of part numbers without having to read them.
 ## Stack
 
