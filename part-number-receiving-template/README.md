@@ -8,6 +8,10 @@ Google Sheets + Apps Script automation
 
 New Company C products arrive with part numbers that are difficult to read and sort manually (10+ digits, one letter difference in the middle of the number). Receiving/picking these products is a big pain and has high room for error.
 
+## Why Can't We use the Serial Number Counter?
+
+This workflow requires a different receiving format because there are no unique serial numbers, so duplication detection is not ideal here. Items of the same model will have the same part number, but we are removing the need to read the part numbers in order to reduce errors involving with these items.
+
 ## Purpose
 
 This tool supports scanner-based receiving by checking scanned barcodes against a packing list and tracking receiving progress automatically without having to read a part number.
@@ -59,7 +63,7 @@ This tool supports scanner-based receiving by checking scanned barcodes against 
 
 ## Expansion Potential
 
-- Can be used for any vendors provided that there is a bar code of the part number to scan
+- Can be used for any vendors
 - Works best with barcodes, but can also use scanner text input or voice input where needed
 - May be adapted into a picking validation tool if packing lists and location data can be integrated reliably
 - Especially useful for onboarding newer workers who are not yet familiar with part numbers
