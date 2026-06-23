@@ -1,4 +1,4 @@
-# Company B Serial Number Counter Template
+# Serial Number Counter
 A flexible template that allows for categorical tracking of different models by serial number, for any amount of model numbers. 
 ## Stack
 
