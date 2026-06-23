@@ -1,4 +1,4 @@
-# Company A Temporary/Overstock Database
+# Temporary/Overstock Database
 
 ## Stack
 
