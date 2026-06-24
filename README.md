@@ -18,7 +18,7 @@ These tools are designed around scanner-friendly workflows and Google-based syst
 
 The suite is built on the Google ecosystem because it is:
 - **Low-cost and practical**
-- **Apps Scripts** is phenomenal for spreadsheets that are only hundreds of lines long
+- **Apps Scripts** is phenomenal for spreadsheets that are only hundreds of lines long, and automatically handles frontend-backend communication
 - **Scalable/easy** to manage for small or growing warehouse teams
 - **Familiar** to most users who already know spreadsheets or Google tools
 - Utilize on multiple devices via Google sign-on
@@ -32,9 +32,14 @@ The suite is built on the Google ecosystem because it is:
 - Tools are shared through Google's share feature
 - We use AWS' **Principle of Least Privelege** as our security model. Users in the workspace are restricted to only being able to edit the sheets shared and nothing else for maximum security. Extra permissions are shared as needed.
 - Code is shipped with the sheets through Document ID.
-- **Main Tradeoff**: Ease of sharing/monitoring for being bottlenecked by a master email. We take this tradeoff here because the number of users and size of data is relatively small, and we want the suite to be easily monitored by one person. As long as Super Admin takes care of master email, this is an effective architecture. 
+- **Main Tradeoff**: Ease of sharing/monitoring for being bottlenecked by a master email. We take this tradeoff here because the number of users and size of data is relatively small, and we want the suite to be easily monitored by one person. As long as Super Admin takes care of master email, this is an effective architecture.
 - Diagram seen below:
 <img width="700" height="500" alt="DGI-Tools-Architecture-2" src="https://github.com/user-attachments/assets/066af60a-be86-42ee-a1b7-f78755b6cc14" />
+
+## Google Sheets as my UI
+- I believe this architectural decision to be significant enough to get give it its own section. The option to add a UI on top of a spreadsheet was always there, but for these use cases keeping Google Sheets as the frontend yielded the most benefits:
+  1. I wanted to encourage my coworkers to become more comfortable with using technology/software to improve the way they work. As I trained the staff to use my tools, I tried to encourage a sense of creativity and open-mindedness to use other software at their disposal (Sheets, Excel, ChatGPT, etc.). Keeping my tools on Google Sheets allowed for a smoother training process.
+  2. Google Sheets/Excel has many functions that help the warehouse. Functions such as ctrl-F and sorting becomes very useful for organizing and formatting packing lists and working with spreadsheets sent from the office. Instead of making my own, I took advantage of what was already available.
 
 ## Design Philosophy and Recurring Patterns
 - **User input and seamless fit into current workflows** takes top priority
