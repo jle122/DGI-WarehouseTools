@@ -60,3 +60,5 @@ This template streamlines that process, providing a scanner-based counting workf
 ## Expansion Potential
 
 Any vendors with serial numbers can use this template. In the case that some products have serial numbers but no barcode, our scanners have **cameras** that allow for text scanning. The text scanning is seamless with Google Sheets.
+
+For the upgraded counter click [here](serial-number-counter/README.md).
